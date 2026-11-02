@@ -1,13 +1,13 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-
-    <IsPackable>false</IsPackable>
-    <IsTestProject>true</IsTestProject>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<IsPackable>false</IsPackable>
+		<IsTestProject>true</IsTestProject>
+		<PreserveCompilationContext>true</PreserveCompilationContext>
+	</PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.0" />
@@ -18,11 +18,12 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.5.3" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\..\src\ProductManagement.Application\ProductManagement.Application.csproj" />
-    <ProjectReference Include="..\..\src\ProductManagement.Domain\ProductManagement.Domain.csproj" />
-    <ProjectReference Include="..\..\src\ProductManagement.Infrastructure\ProductManagement.Infrastructure.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\..\src\ProductManagement.API\ProductManagement.API.csproj" />
+		<ProjectReference Include="..\..\src\ProductManagement.Application\ProductManagement.Application.csproj" />
+		<ProjectReference Include="..\..\src\ProductManagement.Domain\ProductManagement.Domain.csproj" />
+		<ProjectReference Include="..\..\src\ProductManagement.Infrastructure\ProductManagement.Infrastructure.csproj" />
+	</ItemGroup>
 
   <ItemGroup>
     <Using Include="Xunit" />

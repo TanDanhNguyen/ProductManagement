@@ -4,9 +4,7 @@ using Microsoft.Data.Sqlite;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
-using Microsoft.VisualStudio.TestPlatform.TestHost;
 using ProductManagement.Infrastructure.Persistence;
-
 namespace ProductManagement.IntegrationTests;
 
 public class CustomWebApplicationFactory : WebApplicationFactory<Program>
