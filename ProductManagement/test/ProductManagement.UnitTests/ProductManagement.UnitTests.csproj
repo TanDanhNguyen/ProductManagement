@@ -19,7 +19,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\ProductManagement.Application\ProductManagement.Application.csproj" />
-    <ProjectReference Include="..\ProductManagement.Domain\ProductManagement.Domain.csproj" />
+    <ProjectReference Include="..\..\src\ProductManagement.Application\ProductManagement.Application.csproj" />
+    <ProjectReference Include="..\..\src\ProductManagement.Domain\ProductManagement.Domain.csproj" />
   </ItemGroup>
 
   <ItemGroup>
