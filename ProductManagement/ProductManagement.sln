@@ -9,15 +9,15 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B9493CE2-2
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.API", "src\ProductManagement.API\ProductManagement.API.csproj", "{A4B5C189-5E64-4113-98D1-5AA48C86B86D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Application", "ProductManagement.Application\ProductManagement.Application.csproj", "{70C5436E-6705-4620-9616-210B8E05B643}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Application", "src\ProductManagement.Application\ProductManagement.Application.csproj", "{70C5436E-6705-4620-9616-210B8E05B643}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Domain", "src\ProductManagement.Domain\ProductManagement.Domain.csproj", "{CC384DCD-AA5A-4271-87F5-E0C8CFAFB3FC}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.Infrastructure", "src\ProductManagement.Infrastructure\ProductManagement.Infrastructure.csproj", "{E4ABA701-78FD-4468-9AF8-E00766021758}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.UnitTests", "src\ProductManagement.UnitTests\ProductManagement.UnitTests.csproj", "{BD8C3C86-1941-4B97-B211-76BE61548EB6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.UnitTests", "test\ProductManagement.UnitTests\ProductManagement.UnitTests.csproj", "{BD8C3C86-1941-4B97-B211-76BE61548EB6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.IntegrationTests", "src\ProductManagement.IntegrationTests\ProductManagement.IntegrationTests.csproj", "{1D062F61-0B52-4BCE-B204-35E5745ABC12}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProductManagement.IntegrationTests", "test\ProductManagement.IntegrationTests\ProductManagement.IntegrationTests.csproj", "{1D062F61-0B52-4BCE-B204-35E5745ABC12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
